@@ -1,0 +1,111 @@
+![Header](images/header.png)
+
+## 🏷️ Project Badges
+
+![FlyRank AI Internship](https://img.shields.io/badge/FlyRank_AI_Internship-blue?style=for-the-badge&logo=microsoft)
+![Backend AI Engineering](https://img.shields.io/badge/Track-Backend_AI_Engineering-purple?style=for-the-badge&logo=node.js)
+![Capstone](https://img.shields.io/badge/Type-Capstone-orange?style=for-the-badge&logo=graduation-cap)
+![Week 8](https://img.shields.io/badge/When-Week_8-yellow?style=for-the-badge&logo=calendar)
+![Workload 28h](https://img.shields.io/badge/Workload-28h-green?style=for-the-badge&logo=clock)
+
+
+# Usage Metering & Billing Engine (FlyRank Capstone)
+
+## Overview
+This backend service implements the core features every SaaS platform needs:
+- **Usage metering**: Track API calls and token consumption per tenant.
+- **Quota enforcement**: Reject requests when free tier limits are exceeded.
+- **Billing integration**: Stripe checkout sessions for paid upgrades.
+- **Idempotency**: Prevent duplicate usage events.
+- **Cost rollup**: Calculate usage costs based on pricing rules.
+
+Built as part of the FlyRank Internship Backend Capstone.
+
+---
+
+## Tech Stack
+- **Node.js / Express.js** — API framework
+- **PostgreSQL** — Persistent storage
+- **Stripe API** — Billing integration
+- **Jest & Supertest** — Automated testing
+- **ESLint & Prettier** — Code quality and formatting
+
+---
+
+## 📸 Screenshot Evidence
+
+Below are captured test run outputs demonstrating correctness and coverage.
+
+| Usage & Quota Tests | Cost & Stripe Tests | Idempotency Tests |
+|---------------------|---------------------|-------------------|
+| ![Usage & Quota](screenshots/usage-quota-tests.png) <br>✅ Shows quota enforcement returning 429 | ![Cost & Stripe](screenshots/cost-stripe-tests.png) <br>✅ Demonstrates cost rollup and mocked Stripe checkout | ![Idempotency](screenshots/idempotency-tests.png) <br>✅ Confirms duplicate event handling returns "Already processed" |
+
+---
+
+
+## Project Structure
+```bash
+src/
+index.js          # App entry point
+config/pricing.js # Pricing rules
+db/pool.js        # Database connection
+routes/usage.js   # Usage metering & quota enforcement
+routes/checkout.js# Stripe checkout
+routes/webhook.js # Stripe webhook handler
+utils/cost.js     # Cost calculation
+tests/
+usage.test.js
+quota.test.js
+stripe.test.js
+idempotency.test.js
+cost.test.js
+```
+
+---
+
+## Running Locally
+1. Install dependencies:
+   ```powershell
+   npm install
+```
+
+Run in dev mode:
+```bash
+npm run dev
+```
+Run tests with coverage:
+```bash
+npm test
+```
+
+---
+
+### Evidence
+Include a screenshot of the PowerShell output showing:
+
+npm test run
+
+All test suites passing
+
+Coverage summary table
+
+---
+
+Status
+✅ All tests passed
+✅ Coverage ~85%
+✅ Quota enforcement, idempotency, Stripe integration verified
+✅ Ready for submission
+
+---
+
+### 🌟 Portfolio Highlight
+
+![Portfolio Highlight](images/portfolio-highlight.png)  
+✅ **Backend AI Engineer Role** — Demonstrates applied skills in usage metering, quota enforcement, Stripe integration, and idempotency handling, reflecting real‑world SaaS billing challenges solved during the FlyRank AI Internship.
+
+---
+
+![Footer](images/footer.png)
+
+ Copyright (C) Leonard Phokane 2026. All rights reserved.
