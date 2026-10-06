@@ -69,27 +69,18 @@ cost.test.js
    npm install
 ```
 
-Run in dev mode:
+2. Run in dev mode:
 ```bash
 npm run dev
 ```
-Run tests with coverage:
+3. Run tests with coverage:
 ```bash
 npm test
 ```
 
 ---
 
-### Evidence
-Include a screenshot of the PowerShell output showing:
 
-npm test run
-
-All test suites passing
-
-Coverage summary table
-
----
 
 Status
 ✅ All tests passed
