@@ -57,7 +57,7 @@ cost.test.js
 
 ## Running Locally
 1. Install dependencies:
-   ```powershell
+   ```bash
    npm install
 ```
 
