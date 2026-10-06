@@ -30,15 +30,7 @@ Built as part of the FlyRank Internship Backend Capstone.
 - **Jest & Supertest** — Automated testing
 - **ESLint & Prettier** — Code quality and formatting
 
----
 
-## 📸 Screenshot Evidence
-
-Below are captured test run outputs demonstrating correctness and coverage.
-
-| Usage & Quota Tests | Cost & Stripe Tests | Idempotency Tests |
-|---------------------|---------------------|-------------------|
-| ![Usage & Quota](screenshots/usage-quota-tests.png) <br>✅ Shows quota enforcement returning 429 | ![Cost & Stripe](screenshots/cost-stripe-tests.png) <br>✅ Demonstrates cost rollup and mocked Stripe checkout | ![Idempotency](screenshots/idempotency.test.js.png) <br>✅ Confirms duplicate event handling returns "Already processed" |
 
 ---
 
@@ -80,6 +72,14 @@ npm test
 
 ---
 
+
+## 📸 Screenshot Evidence
+
+Below are captured test run outputs demonstrating correctness and coverage.
+
+| Usage & Quota Tests | Cost & Stripe Tests | Idempotency Tests |
+|---------------------|---------------------|-------------------|
+| ![Usage & Quota](screenshots/usage-quota-tests.png) <br>✅ Shows quota enforcement returning 429 | ![Cost & Stripe](screenshots/cost-stripe-tests.png) <br>✅ Demonstrates cost rollup and mocked Stripe checkout | ![Idempotency](screenshots/idempotency.test.js.png) <br>✅ Confirms duplicate event handling returns "Already processed" |
 
 
 Status
