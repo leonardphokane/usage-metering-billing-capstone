@@ -27,7 +27,7 @@ Thumbs.db
 .vscode/
 .idea/
 
-# Ignore large files and assets
+# Ignore large files and assets by default
 *.png
 *.jpg
 *.jpeg
@@ -35,8 +35,9 @@ Thumbs.db
 *.svg
 *.pdf
 
-# Keep only screenshots folder for evidence
-!screenshots/
+# Keep evidence images
+!screenshots/**
+!images/**
 
 # Keep source code
 !src/**
