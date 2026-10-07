@@ -93,7 +93,8 @@ Status
 ### 🌟 Portfolio Highlight
 
 ![Portfolio Highlight](images/portfolio-highlight.png)  
-✅ **Backend AI Engineer Role** — Demonstrates applied skills in usage metering, quota enforcement, Stripe integration, and idempotency handling, reflecting real‑world SaaS billing challenges solved during the FlyRank AI Internship.
+✅ **Backend AI Engineer** — I design and ship production AI systems — from optimized models and ML pipelines to full-stack React/Node apps running on automated, containerized infrastructure. I turn research into reliable, measurable software.
+
 
 ---
 
