@@ -100,4 +100,4 @@ Status
 
 ![Footer](images/footer.png)
 
- © Leonard Phokane 2026. All rights reserved.
+ © 2026 Leonard Phokane | All rights reserved.
